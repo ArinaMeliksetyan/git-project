@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-Привет из ветки feature-conflict!
-=======
+# Git Project
+
+Учебный проект по работе с Git и GitHub.
 Привет из ветки main!
->>>>>>> c52233ba7e93765b343184247b57c087061bbe0d
+Привет из ветки feature-conflict!
