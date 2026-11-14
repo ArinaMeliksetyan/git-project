@@ -12,5 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Check files
-        run: ls -la
+        with:
+          fetch-depth: 0
+      - name: TruffleHog Secret Scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --only-verified=false
