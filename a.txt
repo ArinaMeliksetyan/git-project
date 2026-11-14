@@ -3,3 +3,4 @@ updated text
 commit 4
 commit 5
 parallel
+from clone 1
